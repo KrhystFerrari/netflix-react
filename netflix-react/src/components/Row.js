@@ -54,7 +54,7 @@ function Row({ title, path, isLarge }) {
           );
         })}
       </div>
-      {trailerUrl && <ReactPlayer url={trailerUrl} playing={true} />}
+      {trailerUrl && <ReactPlayer url={trailerUrl} playing={true} className='player' />}
     </div>
   );
 }
